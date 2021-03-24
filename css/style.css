@@ -152,6 +152,34 @@ footer li {
 }
 
 
+/*div for three columns*/
+
+#txt {
+    max-width: 100%;
+    padding-left: 5%;
+}
+
+#txt:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#txt div {
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+}
+
+#txt h4 {
+    padding-left: 15px;
+}
+
+#txt li {
+    text-align: justify;
+}
+
+
 /* Recycling ambassadors and our goals text*/
 
 .text2 {
