@@ -1,0 +1,185 @@
+/* navbar */
+
+.navbar-nav {
+    overflow: hidden;
+    float: right;
+    width: 100%;
+}
+
+.navbar-nav img {
+    max-width: 60px;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.navbar-nav ul {
+    float: right;
+}
+
+.navbar-nav li {
+    display: inline;
+}
+
+.navbar-nav a {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    padding: 14px 16px;
+}
+
+.navbar-nav a:hover {
+    color: #344E41;
+    font-size: 18px;
+}
+
+.active-page {
+    background-color: #81ac9798;
+}
+
+
+/* heading */
+
+h1 {
+    padding-left: 10%;
+    font-size: 60px;
+}
+
+
+/* articles */
+
+.articles {
+    max-width: 55%;
+    padding-left: 5%;
+}
+
+.articles:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.articles div {
+    float: left;
+    width: 50%;
+}
+
+.articles img {
+    max-width: 95%;
+}
+
+
+/* no planet b div */
+
+#planetB {
+    max-width: 35%;
+    float: right;
+    margin-top: -460px;
+}
+
+#planetB img {
+    max-width: 90%;
+}
+
+#planetB p {
+    max-width: 90%;
+    text-align: justify;
+}
+
+
+/* tweets */
+
+.tweets {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.tweets:after {
+    content: "";
+    display: grid;
+    clear: both;
+}
+
+.tweets div {
+    float: left;
+    width: 28%;
+    padding-left: 10px;
+}
+
+
+/* footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #dee2e6;
+    color: black;
+    text-align: left;
+    height: 50px;
+}
+
+footer ul {
+    padding-top: 15px;
+}
+
+footer li {
+    display: inline;
+    margin-left: 15px;
+}
+
+
+/* Recycling projects text */
+
+#recyclingProjects {
+    width: 100%;
+    padding-left: 5%;
+}
+
+#recyclingProjects p {
+    text-align: justify;
+    width: 85%;
+}
+
+#recyclingProjects img {
+    max-width: 30%;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    float: inline-start;
+}
+
+
+/* Recycling ambassadors and our goals text*/
+
+.text2 {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.text2 h1 {
+    padding-left: 5%;
+    font-size: 45px;
+}
+
+.text2 p {
+    text-align: justify;
+}
+
+
+/* Button */
+
+.join {
+    background-color: #19721c;
+    border: none;
+    padding: 15px 32px;
+}
+
+.join a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
